@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Remove Adblock Detected",
+  "description": "Removes the adblock detected popup in the animeszone.net website.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "64": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "action": {},
+  "content_scripts": [
+    {
+      "js": [
+        "script.js"
+      ],
+      "matches": [
+        "https://animeszone.net/*"
+      ]
+    }
+  ],
+  "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>"
+}
