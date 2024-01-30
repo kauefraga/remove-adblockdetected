@@ -1,3 +1,12 @@
-const popup = document.querySelector(".bodyc");
+const popupAnimeszone1 = document.querySelector(".bodyc");
 
-popup.remove();
+if (popupAnimeszone1 !== null) {
+  popupAnimeszone1.remove();
+}
+
+const popupAnimeszone2 = document.getElementById("show_adblock");
+
+if (popupAnimeszone2 !== null) {
+  popupAnimeszone2.remove();
+}
+
